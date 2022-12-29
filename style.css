@@ -1,0 +1,77 @@
+header {
+    height: 50px;
+    background-color: orchid;
+    width: 100%;
+}
+
+main {
+
+height: 600px;
+background-color: aqua;
+width: 100%;
+
+}
+
+footer {
+height: 150px;
+background-color: blanchedalmond;
+width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.box1 {
+    border: solid black 2px;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.liNavTop {
+    display: inline-block;
+    padding: 10px 25px;
+   
+}
+
+.liNavTop a{
+    color:bisque;
+    text-decoration: none;
+}
+
+.liNavTop a:hover {
+    background-color: aqua;
+    color: black;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: auto;
+    margin-top: 10px;
+}
+
+ulNavTop {
+    margin: 0;
+    padding: 0;
+    font-style: center ;
+    font-style: 30px;
+    overflow: hidden;
+  
+
+}
+
+nav {
+    height: 300px;
+     }
